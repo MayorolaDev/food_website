@@ -1,0 +1,74 @@
+.hero{
+  border: 2px sold black;
+  height: 92vh;
+  background: linear-gradient(rgba(5,3,23,.5), rgba(5,3,23,.5)), url(../images/background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_header{
+  width: 92%;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin-right: auto;
+  color: #fea116;
+  font-size: large;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: auto;
+}
+.nav>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 5%;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav>ul>li{
+  font-size: larger;
+  text-transform: capitalize;
+  height: 100%;
+
+}
+.nav>ul>li:hover{
+  background-color: #fea116;
+  color: white;
+  padding: 5px;
+
+}
+.active{
+  background-color: #fea116;
+  color: white;
+  padding: 5px;
+  
+  }
+li.button{
+  color: white;
+  background-color: #fea116;
+  padding: 7px;
+  text-align: center;
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  border-radius:3px;
+}
+
+P{
+  color: white;
+}
